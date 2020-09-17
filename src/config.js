@@ -5,3 +5,5 @@ module.exports = {
   API_TOKEN: process.env.API_TOKEN || null,
   JWT_SECRET: process.env.JWT_SECRET || 'change-this-secret',
 };
+
+// password 3fdc7d8c9b65bce91542f0f50d1d90ad850d97b7439012d32e3901e799b3f9e7

@@ -1,10 +1,23 @@
-# Express Boilerplate!
+### PETFUL
+Created by Seyi Ariyo and Wesley Rou
+
+[Live App](https://dsa-petful-wesley-seyi.vercel.app)
+[Client Repo](https://github.com/thinkful-ei-panda/DSA-Petful-Wesley-Seyi)
+[API Repo](https://github.com/SeyiAriyo/DSA-Petful-Server-Wesley-Sey)
 
 # About
-
-Petful server is designed to work with the Petful client interface.
 Petful is a first in first out adoption agency. This server stores and serves the queue for dogs, cats, and people.
 
+At Petful, we believe every pet deserves a home
+
+We match pets and people on a first-in first-out basis.
+
+Put your name in the queue, and when it's your turn, come back 
+      and choose whether you want the next available dog,
+
+Petful server is designed to work with the Petful client interface.
+
+# API calls
 GET
 /api/dog/ returns the next dog
 /api/cat/ returns the next cat
@@ -16,9 +29,16 @@ DELETE - when a pet is adopted, they get deleted from the list
 /api/cat/ removes the next cat from the queue and returns it
 /api/people/next removes the next person from the queue and returns it
 
-This app was built using Node, Express, and React
 
-This is a boilerplate project used for starting new projects!
+
+# Technology
+
+We deployed this using Vercel
+The tech used was React, HTML5, CSS3, and Javascript.
+This app was built using Node, Express, and React
+The app utilizes asynchronous calls to a Heroku server that responds with data. 
+By working on this project, you can learn how to set API calls to state, and utilize that state asynchronously to provide content.
+We utilized a queue data structure to store the cat and dog information, so further developing this app can be a great help to learning data structures.
 
 ## How do set up?
 
